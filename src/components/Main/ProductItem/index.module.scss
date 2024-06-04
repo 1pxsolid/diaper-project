@@ -1,0 +1,24 @@
+.ProductItem {
+  display: flex;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 56px auto;
+  text-align: left;
+  padding: 24px 0;
+}
+
+.thumbnail {
+  width: 40px;
+  height: 40px;
+}
+
+.info-container {
+}
+
+.divider {
+  height: 1px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: #f1f1f1;
+}

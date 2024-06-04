@@ -1,0 +1,13 @@
+.Category {
+  display: flex;
+  gap: 8px;
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 20px 24px;
+
+  > button {
+    flex-shrink: 0;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+  }
+}
