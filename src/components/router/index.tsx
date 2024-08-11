@@ -1,15 +1,15 @@
-import { Route, Routes } from "react-router-dom";
-import Main from "../Main/index";
-import ProductDetail from "../ProductDetail/index";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "../Main";
+import ProductDetail from "../ProductDetail";
 
 function Router() {
   return (
-    <Routes>
-      <Route path="/" element={<Main />}>
-        <Route index element={<Main />} />
-        <Route path="/detail" element={<ProductDetail />} />
-      </Route>
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/detail/:id" element={<ProductDetail />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 export default Router;
