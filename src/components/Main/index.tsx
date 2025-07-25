@@ -11,7 +11,7 @@ function Main() {
   return (
     <main className={cx("Main")}>
       <header>
-        <h1>👶 기저귀 핫딜 👶</h1>
+        <h1>👶 기저귀 핫딜2 👶</h1>
         <Category />
       </header>
 
